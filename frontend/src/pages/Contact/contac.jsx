@@ -1,11 +1,12 @@
 import React from 'react'
 
-function creator() {
+function contac() {
   return (
     <div>
-      <h2>ons</h2>
+   <h1></h1>
     </div>
   )
 }
 
-export default creator ;
+export default contac
+
