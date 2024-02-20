@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Headers() {
+function dashbord() {
   return (
     <div>
-      
+      ithar
     </div>
   )
 }
 
-export default Headers
+export default dashbord

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function sidbar() {
+function Adminsidbar() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function sidbar() {
   )
 }
 
-export default sidbar
+export default Adminsidbar

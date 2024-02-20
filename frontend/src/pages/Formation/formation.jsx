@@ -1,9 +1,9 @@
 import React from 'react'
 
-function contac() {
+function formation() {
   return (
     <div>
-   <header id="site-header" className="fixed-top">
+      <header id="site-header" className="fixed-top">
         <div className="container">
             <nav className="navbar navbar-expand-lg stroke">
                 <h1>
@@ -145,5 +145,4 @@ function contac() {
   )
 }
 
-export default contac
-
+export default formation
