@@ -187,31 +187,10 @@ p {
 	font-family: 'Inter', sans-serif;
 	color: #1b3133;
 }
-.h2{
-	font-size: 28px;
-	font-weight: 700;
-	line-height: 1.35;
-	font-family: 'Inter', sans-serif;
-	color: #1b3133;
-}
-.h3{
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 1.5;
-	color: #1b3133;
-	font-family: 'Inter', sans-serif;
-}
 .h4,
 .page-header h4{
 	font-size: 20px;
 	font-weight: 700;
-	line-height: 1.35;
-	color: #1b3133;
-	font-family: 'Inter', sans-serif;
-}
-.h5{
-	font-size: 18px;
-	font-weight: 600;
 	line-height: 1.35;
 	color: #1b3133;
 	font-family: 'Inter', sans-serif;
