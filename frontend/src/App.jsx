@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import About from './pages/About/apropos';
+import About from './pages/About/apropos.jsx';
 import Home from './pages/Home/acceuil';
 import Contact from './pages/Contact/contac';
 import Formation from './pages/Formation/formation';
+import Createur  from './pages/Createur/createur';
 import Headers from './Components/Headers';
 import Footer from './Components/footer';
 import Sidbar from './pages/Admin/sidbar/Adminsidbar';
@@ -19,8 +20,9 @@ function App() {
       <Headers />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/apropos" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/createur" element ={<Createur/>} />
         <Route path="/formation" element={<Formation/>} />
         <Route path="/sidbar" element={<Sidbar />} />
         <Route path="/dashbord" element={<Dashbord />} />
