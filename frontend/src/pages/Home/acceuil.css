@@ -8,5 +8,18 @@ body {
     font-size: 14px; /* Adjust the font size as needed */
     color: black;
 }
+.yalla-word {
+    color: #70218F;
+}
+.fa-tiktok {
+    color: white;
+}
+.bigger-word {
+    font-size: 1.2em; /* Taille de police souhaitée */
+    font-weight: bold; /* Mise en gras */
+
+}
+
+
 
 

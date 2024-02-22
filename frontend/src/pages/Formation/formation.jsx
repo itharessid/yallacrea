@@ -21,20 +21,20 @@ function formation() {
 
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav ml-lg-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="index.html">Acceuil <span className="sr-only">(current)</span></a>
+                    <li className="nav-item active">
+                            <a className="nav-link" href="/">Acceuil <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="about.html">Apropos</a>
+                            <a className="nav-link" href="apropos">Apropos</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="courses.html">Formation</a>
+                            <a className="nav-link" href="formation">Formation</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="contact.html">Créateur</a>
+                            <a className="nav-link" href="createur">Créateur</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="contact.html">Contact</a>
+                            <a className="nav-link" href="contact">Contact</a>
                         </li>
                         
                         <div className="search-right">
@@ -94,13 +94,14 @@ function formation() {
                   />
                   <p>Dans notre école dynamique et novatrice, nous visons à développer les compétences 
                     clés pour créer des contenus exceptionnels, riches en inspiration</p>
-                  <div className="columns-2">
+                    <div className="columns-2">
                     <ul className="social">
-                      <li><a href="#facebook"><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
-                      <li><a href="#linkedin"><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
-                      <li><a href="#tiktok"><span className="fa fa-tiktok" aria-hidden="true"></span></a></li>
-                      <li><a href="#instagram"><span className="fa fa-instagram" aria-hidden="true"></span></a></li>
+                      <li><a href="https://www.facebook.com/profile.php?id=100095263917513&amp;mibextid=LQQJ4d"><span className="fa fa-facebook" aria-hidden="true"></span></a></li>
+                      <li><a href="https://instagram.com/yalla_digital_academy?igshid=MzRlODBiNWFlZA=="><span className="fa fa-instagram" aria-hidden="true"></span></a></li>
+                      <li><a href="https://www.tiktok.com/@yalla.digital.academy?_t=8ekU1rsalE6&_r=1"> <img src="src/assets/images/tiktok-16.png" alt="TikTok" /> </a></li>
+                      <li><a href="https://www.linkedin.com/company/yalla-digital-academy/posts/?feedView=all"><span className="fa fa-linkedin" aria-hidden="true"></span></a></li>
                     </ul>
+                   
                   </div>
                 </div>
 
@@ -111,10 +112,10 @@ function formation() {
                     <div className="col-lg-6 col-md-6 col-sm-6 sub-two-right">
                       <h6>Quick links</h6>
                       <ul>
-                        <li><a href="index.html"><span className="fa fa-angle-double-right mr-2"></span>Acceuil</a></li>
-                        <li><a href="about.html"><span className="fa fa-angle-double-right mr-2"></span>Apropos</a></li>
-                        <li><a href="courses.html"><span className="fa fa-angle-double-right mr-2"></span>Createur</a></li>
-                        <li><a href="contact.html"><span className="fa fa-angle-double-right mr-2"></span>Contact</a></li>
+                        <li><a href="/"><span className="fa fa-angle-double-right mr-2"></span>Acceuil</a></li>
+                        <li><a href="apropos"><span className="fa fa-angle-double-right mr-2"></span>Apropos</a></li>
+                        <li><a href="createur"><span className="fa fa-angle-double-right mr-2"></span>Createur</a></li>
+                        <li><a href="contact"><span className="fa fa-angle-double-right mr-2"></span>Contact</a></li>
                       </ul>
                     </div>
 
@@ -124,7 +125,7 @@ function formation() {
                       <div className="column2">
                         <div className="href1"><span className="fa fa-envelope-o" aria-hidden="true"></span><a href="mailto:info@example.com">Yalladigitalacademy@gmail.com</a></div>
                         <div className="href2"><span className="fa fa-phone" aria-hidden="true"></span><a href="tel:+216 56 340 161">+216 56 340 161</a></div>
-                        <p className="contact-para"><span className="fa fa-map-marker" aria-hidden="true"></span>ZI Chotrana II 2083 Cité El Ghazala</p>
+                        <p className="contact-para"><span className="fa fa-map-marker" aria-hidden="true"></span><a href="https://maps.app.goo.gl/MGR32vQN53BYYnSC9"> ZI Chotrana II 2083 Cité El Ghazala</a></p>
                       </div>
                     </div>
                   </div>
