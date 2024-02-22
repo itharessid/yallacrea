@@ -179,7 +179,7 @@ a {
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: purple;
   text-decoration: underline;
 }
 
