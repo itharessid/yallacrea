@@ -8,9 +8,11 @@ import Headers from './Components/Headers';
 import Footer from './Components/footer';
 import Sidbar from './pages/Admin/sidbar/Adminsidbar';
 import Dashbord from './pages/Admin/dashbord';
+import Bienvenue from './pages/Admin/bienvenue/bienvenue'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
+import Acceuil from './pages/Home/acceuil';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +28,8 @@ function App() {
         <Route path="/formation" element={<Formation/>} />
         <Route path="/sidbar" element={<Sidbar />} />
         <Route path="/dashbord" element={<Dashbord />} />
+        <Route path="/bienvenue" element={<Bienvenue/>} />
+
       </Routes>
     </BrowserRouter>
   );
