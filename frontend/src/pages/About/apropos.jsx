@@ -1,84 +1,185 @@
 import React from 'react'
+import './apropos.css'
 
 function apropos() {
   return (
     <div>
-     <header id="site-header" className="fixed-top">
-        <div className="container">
-            <nav className="navbar navbar-expand-lg stroke">
-                <h1>
-                    <a className="navbar-brand" href="index.html">
-                    <img className="img-fluid" src="src/assets/images/yallalogo.png" alt="" style={{ maxWidth: '100px' }} />
-                    </a>
-                </h1>
-      
-                <button className="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                    <span className="navbar-toggler-icon fa icon-close fa-times"></span>
-                </button>
+    <header id="site-header" className="fixed-top">
+    <div className="container">
+        <nav className="navbar navbar-expand-lg stroke">
+            <h1>
+                <a className="navbar-brand" href="index.html">
+                    <img className="img-fluid" src="src/assets/images/yallalogo.png" alt="" style={{ maxWidth: '80px' }} /> {/* Réduction de la taille du logo */}
+                </a>
+            </h1>
 
-                <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul className="navbar-nav ml-lg-auto">
+            <button className="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                <span className="navbar-toggler-icon fa icon-close fa-times"></span>
+            </button>
+
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul className="navbar-nav ml-lg-auto">
                     <li className="nav-item active">
-                            <a className="nav-link" href="/">Acceuil <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="apropos">Apropos</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="formation">Formation</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="createur">Créateur</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="contact">Contact</a>
-                        </li>
+                        <a className="nav-link" href="/">Accueil <span className="sr-only">(current)</span></a> {/* "Accueil" au lieu de "Acceuil" */}
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="apropos">À propos</a> {/* "À propos" au lieu de "Apropos" */}
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="formation">Formation</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="createur">Créateur</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="contact">Contact</a>
+                    </li>
+                    
+                    <div className="search-right">
+                        <a href="#search" className="btn button-style" title="search">Se connecter</a> {/* "Se connecter" au lieu de "SeConnecter" */}
                         
-                        <div className="search-right">
-                            <a href="#search" className="btn button-style" title="search">SeConnecter</a>
-                            
-                            <div id="search" className="pop-overlay">
-                                <div className="popup">
-                                    <h4 className="search-pop-text-w3 text-white text-center mb-4">Search Here Your
-                                        Online Course
-                                    </h4>
-                                    <form action="#error" method="GET" className="search-box">
-                                        <div className="input-search"> <span className="fa fa-search mr-2"
-                                                aria-hidden="true"></span><input type="search"
-                                                placeholder="Enter Keyword" name="search" required="required"
-                                                autofocus=""/>
-                                        </div>
-                                        <button type="submit" className="btn button-style">Search</button>
-                                    </form>
-                                </div>
-                                <a className="close" href="#close">×</a>
+                        <div id="search" className="pop-overlay">
+                            <div className="popup">
+                                <h4 className="search-pop-text-w3 text-white text-center mb-4">Recherchez votre cours en ligne ici</h4> {/* Correction de la faute de frappe */}
+                                <form action="#error" method="GET" className="search-box">
+                                    <div className="input-search">
+                                        <span className="fa fa-search mr-2" aria-hidden="true"></span>
+                                        <input type="search" placeholder="Entrez un mot-clé" name="search" required="required" autoFocus=""/>
+                                    </div>
+                                    <button type="submit" className="btn button-style">Rechercher</button> {/* "Rechercher" au lieu de "Search" */}
+                                </form>
                             </div>
-                          
+                            <a className="close" href="#close">×</a>
                         </div>
-                       
-                    </ul>
-                </div>
-                
-                <div className="cont-ser-position">
-                    <nav className="navigation">
-                        <div className="theme-switch-wrapper">
-                            <label className="theme-switch" for="checkbox">
-                                <input type="checkbox" id="checkbox"/>
-                                <div className="mode-container">
-                                    <i className="gg-sun"></i>
-                                    <i className="gg-moon"></i>
-                                </div>
-                            </label>
-                        </div>
-                    </nav>
-                </div>
-                
-            </nav>
+                    </div>
+                </ul>
+            </div>
+            
+            <div className="cont-ser-position">
+                <nav className="navigation">
+                    <div className="theme-switch-wrapper">
+                        <label className="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox"/>
+                            <div className="mode-container">
+                                <i className="gg-sun"></i>
+                                <i className="gg-moon"></i>
+                            </div>
+                        </label>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <div className="inner-banner">
+        <section className="w3l-breadcrumb">
+            <div className="container">
+                <h4 className="inner-text-title font-weight-bold mb-sm-3 mb-2">A Propos</h4>
+                <ul className="breadcrumbs-custom-path">
+                    <li><a href="/"> Aceuill</a></li>
+                    <li className="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>A Propos</li>
+                     <br/>
+                     <br/>
+                    <h3 className="title-big">Nous spécilaite</h3>
+
+                </ul>
+            </div>
+        </section>
+    </div>
+    <section className="about-block-3 py-5">
+        <div className="grids-w3ovt py-md-4 py-3">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4 mb-md-0 mb-5">
+                    <div className="cardBox">
+                      <div className="card">
+                         <div className="h4">Creative Visionary</div>
+           
+                                <div className="content">
+                              <div className="h3">Creative Visionary</div>
+                            <p>Création et manipulation des contenus visuels captivants en racontant des histoires à travers l'art de l'image.</p>
+                               </div>
+                                    </div>
+                                    </div>
+                                     </div>
+                    <div className="col-md-4 mb-md-0 mb-5">
+                    <div className="cardBox">
+                             <div className="card">
+                               <div className="h4">Sound Sculptor</div>
+         
+                               <div className="content">
+            <div className="h3">Sound Sculptor</div>
+            <p>Création, enregistrement et production des compositions musicales de haute qualité.</p>
+          </div>
         </div>
-    </header>
+      </div>
+                    </div>
+                    <div className="col-md-4">
+                    <div className="cardBox">
+        <div className="card">
+           <div className="h4">Digital Dynamo</div>
+          <div className="content">
+            <div className="h3">Digital Dynamo</div>
+            <p>Création et partage de contenu de qualité pour attirer, engager et fidéliser un public,
+               tout en renforçant la visibilité et l'autorité d'une marque ou d'une entreprise.</p>
+          </div>
+                   </div>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section className="about-block-3 py-5">
+        <div className="grids-w3ovt py-md-4 py-3">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4 mb-md-0 mb-5">
+                    <div className="cardBox">
+                      <div className="card">
+                         <div className="h4">Copywriting Luminary</div>
+           
+                                <div className="content">
+                              <div className="h3">Copywriting Luminary</div>
+                            <p>Création du contenu écrit persuasif et convaincant pour communiquer efficacement avec le public cible.</p>
+                               </div>
+                                    </div>
+                                    </div>
+                                     </div>
+                    <div className="col-md-4 mb-md-0 mb-5">
+                    <div className="cardBox">
+        <div className="card">
+           <div className="h4">Graphical Genius</div>
+         
+          <div className="content">
+            <div className="h3">Graphical Genius</div>
+            <p>Conception des supports visuels attrayants à travers l'utilisation de différents éléments et
+               logiciels de création graphique.</p>
+          </div>
+        </div>
+      </div>
+                    </div>
+                    <div className="col-md-4">
+                    <div className="cardBox">
+        <div className="card">
+           <div className="h4">Gameplay Innovator</div>
+          <div className="content">
+            <div className="h3">Gameplay Innovator</div>
+            <p>Conception de personnages, programmation, animation et écriture de scénarios pour les jeux vidéo</p>
+          </div>
+                   </div>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <footer className="w3l-footer-22 position-relative mt-5 pt-5">
         <div className="footer-sub">
           <div className="container">
@@ -109,7 +210,7 @@ function apropos() {
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <div className="row">
                     {/* Sous-colonne pour "Quick links" */}
-                    <div className="col-lg-6 col-md-6 col-sm-6 sub-two-right">
+                    <div className="col-lg-4 col-md-6 col-sm-6 sub-two-right">
                       <h6>Quick links</h6>
                       <ul>
                         <li><a href="/"><span className="fa fa-angle-double-right mr-2"></span>Acceuil</a></li>
@@ -120,7 +221,7 @@ function apropos() {
                     </div>
 
                     {/* Sous-colonne pour "Contact" */}
-                    <div className="col-lg-6 col-md-6 col-sm-6 sub-one-left">
+                    <div className="col-lg-7 col-md-6 col-sm-6 sub-one-left">
                       <h6>Contact</h6>
                       <div className="column2">
                         <div className="href1"><span className="fa fa-envelope-o" aria-hidden="true"></span><a href="mailto:info@example.com">Yalladigitalacademy@gmail.com</a></div>
@@ -137,7 +238,7 @@ function apropos() {
         <div className="copyright-footer text-center">
           <div className="container">
             <div className="columns">
-              <p>@2020 Online Study. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank"> W3Layouts</a></p>
+              <p> <a href="https://w3layouts.com/" target="_blank"> </a></p>
             </div>
           </div>
         </div>
