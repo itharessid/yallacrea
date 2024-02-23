@@ -49,7 +49,7 @@ function Adminsidbar() {
           <div className="sidebar-menu">
             <ul id="accordion-menu">
               <li className="dropdown">
-                <Link to="/acceuil" className="dropdown-toggle">
+                <Link to="/bienvenue" className="dropdown-toggle">
                   <FontAwesomeIcon icon={faHome} />{' '}
                   <span className="mtext">Accueil</span>
                 </Link>
