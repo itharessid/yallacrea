@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { Application } from '@splinetool/runtime';
-import Video from '../../assets/video/PartIIfini.mp4';
 import ReactPlayer from 'react-player'
 
 
