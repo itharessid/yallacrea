@@ -3,6 +3,7 @@ import React from 'react'
 function formation() {
   return (
     <div>
+<<<<<<< HEAD
       <header id="site-header" className="fixed-top">
         <div className="container">
             <nav className="navbar navbar-expand-lg stroke">
@@ -79,6 +80,79 @@ function formation() {
             </nav>
         </div>
     </header>
+=======
+     <header id="site-header" className="fixed-top">
+    <div className="container">
+        <nav className="navbar navbar-expand-lg stroke">
+            <h1>
+                <a className="navbar-brand" href="index.html">
+                    <img className="img-fluid" src="src/assets/images/yallalogo.png" alt="" style={{ maxWidth: '80px' }} /> {/* Réduction de la taille du logo */}
+                </a>
+            </h1>
+
+            <button className="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                <span className="navbar-toggler-icon fa icon-close fa-times"></span>
+            </button>
+
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul className="navbar-nav ml-lg-auto">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="/">Accueil <span className="sr-only">(current)</span></a> {/* "Accueil" au lieu de "Acceuil" */}
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="apropos">À propos</a> {/* "À propos" au lieu de "Apropos" */}
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="formation">Formation</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="createur">Créateur</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="contact">Contact</a>
+                    </li>
+                    
+                    <div className="search-right">
+                        <a href="#search" className="btn button-style" title="search">Se connecter</a> {/* "Se connecter" au lieu de "SeConnecter" */}
+                        
+                        <div id="search" className="pop-overlay">
+                            <div className="popup">
+                                <h4 className="search-pop-text-w3 text-white text-center mb-4">Recherchez votre cours en ligne ici</h4> {/* Correction de la faute de frappe */}
+                                <form action="#error" method="GET" className="search-box">
+                                    <div className="input-search">
+                                        <span className="fa fa-search mr-2" aria-hidden="true"></span>
+                                        <input type="search" placeholder="Entrez un mot-clé" name="search" required="required" autoFocus=""/>
+                                    </div>
+                                    <button type="submit" className="btn button-style">Rechercher</button> {/* "Rechercher" au lieu de "Search" */}
+                                </form>
+                            </div>
+                            <a className="close" href="#close">×</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            
+            <div className="cont-ser-position">
+                <nav className="navigation">
+                    <div className="theme-switch-wrapper">
+                        <label className="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox"/>
+                            <div className="mode-container">
+                                <i className="gg-sun"></i>
+                                <i className="gg-moon"></i>
+                            </div>
+                        </label>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </div>
+</header>
+
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
     <footer className="w3l-footer-22 position-relative mt-5 pt-5">
         <div className="footer-sub">
           <div className="container">
@@ -109,7 +183,11 @@ function formation() {
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <div className="row">
                     {/* Sous-colonne pour "Quick links" */}
+<<<<<<< HEAD
                     <div className="col-lg-6 col-md-6 col-sm-6 sub-two-right">
+=======
+                    <div className="col-lg-4 col-md-6 col-sm-6 sub-two-right">
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
                       <h6>Quick links</h6>
                       <ul>
                         <li><a href="/"><span className="fa fa-angle-double-right mr-2"></span>Acceuil</a></li>
@@ -120,7 +198,11 @@ function formation() {
                     </div>
 
                     {/* Sous-colonne pour "Contact" */}
+<<<<<<< HEAD
                     <div className="col-lg-6 col-md-6 col-sm-6 sub-one-left">
+=======
+                    <div className="col-lg-7 col-md-6 col-sm-6 sub-one-left">
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
                       <h6>Contact</h6>
                       <div className="column2">
                         <div className="href1"><span className="fa fa-envelope-o" aria-hidden="true"></span><a href="mailto:info@example.com">Yalladigitalacademy@gmail.com</a></div>
@@ -137,7 +219,11 @@ function formation() {
         <div className="copyright-footer text-center">
           <div className="container">
             <div className="columns">
+<<<<<<< HEAD
               <p>@2020 Online Study. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank"> W3Layouts</a></p>
+=======
+              <p><a href="https://w3layouts.com/" target="_blank"> </a></p>
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
             </div>
           </div>
         </div>

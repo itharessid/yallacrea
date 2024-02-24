@@ -57,7 +57,7 @@ function Adminsidbar() {
               <li className="dropdown">
                 <Link to="/etudiants" className="dropdown-toggle">
                   <FontAwesomeIcon icon={faPerson} />{' '}
-                  <span className="mtext">Étudiants</span>
+                  <span className="mtext">Etudiants</span>
                 </Link>
               </li>
               <li className="dropdown">

@@ -9,9 +9,9 @@ function UtilisateurDropDown({ isOpen, toggleDropdown }) {
       <div className={`dropdown ${isOpen ? 'show' : ''}`}>
         <a className="dropdown-toggle" href="#" onClick={toggleDropdown} role="button">
           <span className="user-icon">
-            <img src="src/assets/images/testi2.jpg" alt=""/>
+            <img src="src/assets/images/team2.jpg" alt=""/>
           </span>
-          <span className="user-name">Ross C. Lopez</span>
+          <span className="user-name">Wajdi Chabbane</span>
         </a>
         <div className={`dropdown-menu dropdown-menu-right dropdown-menu-icon-list ${isOpen ? 'show' : ''}`}>
           <Link to="/settings" className="dropdown-item"><FontAwesomeIcon icon={faCog} /> Setting</Link>

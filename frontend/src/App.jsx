@@ -13,6 +13,7 @@ import Bienvenue from './pages/Admin/bienvenue/bienvenue'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Acceuil from './pages/Home/acceuil';
+import Etudiants from './pages/Admin/etudiants/etudiants.jsx';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,7 +30,7 @@ function App() {
         <Route path="/sidbar" element={<Sidbar />} />
         <Route path="/dashbord" element={<Dashbord />} />
         <Route path="/bienvenue" element={<Bienvenue/>} />
-
+        <Route path="/etudiants" element={<Etudiants/>} />    
       </Routes>
     </BrowserRouter>
   );

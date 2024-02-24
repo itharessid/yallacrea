@@ -19,6 +19,20 @@ body {
     font-weight: bold; /* Mise en gras */
 
 }
+<<<<<<< HEAD
+=======
+/* Ajoutez ces styles CSS à votre feuille de style */
+.testimonial-content {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .testimonial-content:hover {
+    transform: translatex(-10px); /* Déplace l'élément de 10px vers le haut au survol */
+  }
+  .social img {
+    vertical-align: middle; /* Centrez l'image verticalement */
+  }
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
 
 
 

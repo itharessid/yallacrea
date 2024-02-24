@@ -1,12 +1,25 @@
 import React, { useEffect, useRef } from 'react';
 import { Application } from '@splinetool/runtime';
+<<<<<<< HEAD
+=======
+//import Video from '../../assets/video/PartIIfini.mp4';
+import ReactPlayer from 'react-player'
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
 
 
 import './acceuil.css';
 
 function Acceuil() {
+<<<<<<< HEAD
     const canvasRef = useRef(null);
 
+=======
+
+    const canvasRef = useRef(null);
+
+
+
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
     useEffect(() => {
         const canvas = canvasRef.current;
         const app = new Application(canvas);
@@ -15,6 +28,7 @@ function Acceuil() {
 
     return (
         <div>
+<<<<<<< HEAD
             <header id="site-header" className="fixed-top">
         <div className="container">
             <nav className="navbar navbar-expand-lg stroke">
@@ -91,6 +105,79 @@ function Acceuil() {
             </nav>
         </div>
             </header>
+=======
+           <header id="site-header" className="fixed-top">
+    <div className="container">
+        <nav className="navbar navbar-expand-lg stroke">
+            <h1>
+                <a className="navbar-brand" href="index.html">
+                    <img className="img-fluid" src="src/assets/images/yallalogo.png" alt="" style={{ maxWidth: '80px' }} /> {/* Réduction de la taille du logo */}
+                </a>
+            </h1>
+
+            <button className="navbar-toggler collapsed bg-gradient" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                <span className="navbar-toggler-icon fa icon-close fa-times"></span>
+            </button>
+
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul className="navbar-nav ml-lg-auto">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="/">Accueil <span className="sr-only">(current)</span></a> {/* "Accueil" au lieu de "Acceuil" */}
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="apropos">À propos</a> {/* "À propos" au lieu de "Apropos" */}
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="formation">Formation</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="createur">Créateur</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="contact">Contact</a>
+                    </li>
+                    
+                    <div className="search-right">
+                        <a href="#search" className="btn button-style" title="search">Se connecter</a> {/* "Se connecter" au lieu de "SeConnecter" */}
+                        
+                        <div id="search" className="pop-overlay">
+                            <div className="popup">
+                                <h4 className="search-pop-text-w3 text-white text-center mb-4">Recherchez votre cours en ligne ici</h4> {/* Correction de la faute de frappe */}
+                                <form action="#error" method="GET" className="search-box">
+                                    <div className="input-search">
+                                        <span className="fa fa-search mr-2" aria-hidden="true"></span>
+                                        <input type="search" placeholder="Entrez un mot-clé" name="search" required="required" autoFocus=""/>
+                                    </div>
+                                    <button type="submit" className="btn button-style">Rechercher</button> {/* "Rechercher" au lieu de "Search" */}
+                                </form>
+                            </div>
+                            <a className="close" href="#close">×</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            
+            <div className="cont-ser-position">
+                <nav className="navigation">
+                    <div className="theme-switch-wrapper">
+                        <label className="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox"/>
+                            <div className="mode-container">
+                                <i className="gg-sun"></i>
+                                <i className="gg-moon"></i>
+                            </div>
+                        </label>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </div>
+</header>
+
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
    
             <section id="home" className="w3l-banner py-5">
                 <div className="container">
@@ -116,6 +203,7 @@ function Acceuil() {
                 </div>
             </section>
             <section className="w3l-servicesblock py-md-5 py-4">
+<<<<<<< HEAD
         <div className="container pb-2">
             <div className="row align-items-center">
                 <div className="col-lg-6 left-wthree-img pr-lg-4">
@@ -132,6 +220,35 @@ function Acceuil() {
                 </div>
             </div>
         </div>
+=======
+            <div className="container pb-2">
+    <div className="row align-items-center">
+    <div 
+            className="col-lg-6 left-wthree-img pr-lg-4 d-flex justify-content-center align-items-center"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}>  
+           <div style={{ maxWidth: '50%', width: '100%' }}>
+                <ReactPlayer 
+                    url={Video}
+                    controls={true}
+                    width="100%"
+                    height="auto"
+                    playing={true} 
+                />
+            </div>
+        </div>
+        <div className="col-lg-6 about-right-faq align-self mb-lg-0 mb-5 pl-xl-5">
+            <h3 className="title-big mb-3">Découvrire <br/><span className="yalla-word">Yalla</span></h3>
+            <p className="">Découvrez une révolution éducative en Tunisie avec la première école de créateurs de contenu,
+                redéfinissant l'expérience éducative pour vous offrir une formation novatrice et inspirante.</p>
+            <a className="btn button-style button-2 mt-lg-5 mt-4" href="apropos">Découvrir plus
+                <i className="fa fa-angle-double-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
     </section>
             
             <section className="w3l-teams-32-main py-5">
@@ -288,7 +405,11 @@ function Acceuil() {
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <div className="row">
                     {/* Sous-colonne pour "Quick links" */}
+<<<<<<< HEAD
                     <div className="col-lg-6 col-md-6 col-sm-6 sub-two-right">
+=======
+                    <div className="col-lg-4 col-md-6 col-sm-6 sub-two-right">
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
                       <h6>Quick links</h6>
                       <ul>
                         <li><a href="/"><span className="fa fa-angle-double-right mr-2"></span>Acceuil</a></li>
@@ -299,7 +420,11 @@ function Acceuil() {
                     </div>
 
                     {/* Sous-colonne pour "Contact" */}
+<<<<<<< HEAD
                     <div className="col-lg-6 col-md-6 col-sm-6 sub-one-left">
+=======
+                    <div className="col-lg-7 col-md-6 col-sm-6 sub-one-left">
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
                       <h6>Contact</h6>
                       <div className="column2">
                         <div className="href1"><span className="fa fa-envelope-o" aria-hidden="true"></span><a href="mailto:info@example.com">Yalladigitalacademy@gmail.com</a></div>

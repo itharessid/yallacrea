@@ -3,6 +3,11 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+<<<<<<< HEAD
     "bootstrap": "^5.3.3"
+=======
+    "bootstrap": "^5.3.3",
+    "react-player": "^2.14.1"
+>>>>>>> 22d14ca2f12828d790f82e2aa44e0eedc40b3f73
   }
 }
